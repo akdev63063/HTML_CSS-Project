@@ -1,4 +1,40 @@
-body
+body{
+
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 5%;
+    background-color: rgb(199, 199, 240);
+
+}
+
+main
 {
-    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+
+}
+h1,h2
+{
+    display: flex;
+    text-align: right;
+    justify-content: space-between;
+    color: blue;
+}
+
+.myimg
+{
+    margin-top: 0%;
+    padding: 0%;
+    margin: 0%;
+    width: 200px;
+    height: 250px;
+}
+section
+{
+    text-align: right;
+}
+div{
+    
+
 }
