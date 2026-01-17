@@ -1,9 +1,7 @@
 body{
-
-    margin-top: 10%;
-    margin-left: 10%;
     margin-right: 10%;
     border-radius: 5%;
+    margin-left: 10%;
     background-color: rgb(199, 199, 240);
 
 }
@@ -14,27 +12,37 @@ main
     font-size: medium;
 
 }
-h1,h2
+.container
 {
     display: flex;
-    text-align: right;
-    justify-content: space-between;
+    align-items: center;
     color: blue;
+    font-size: 150%;
+    
 }
 
-.myimg
-{
-    margin-top: 0%;
-    padding: 0%;
-    margin: 0%;
-    width: 200px;
-    height: 250px;
+.container img {
+    margin-top: 5%;
+  width: 200px;
+  height: auto;
+  margin-right: 20px; /* image aur text ke beech gap */
 }
+
+
 section
 {
-    text-align: right;
+    text-align: left;
+    font-size: larger;
 }
-div{
-    
-
+.a1,.a2,.a3,.a4,.a5,.a6
+{
+    color:blue;
+    font-size:50px;
+    margin-top: 20%;
+    font-size: 150%;
+}
+.ar1,.ar2,.ar3,.ar4,.ar5,.ar6
+{
+    font-size: 30px;
+    text-align: center;
 }
