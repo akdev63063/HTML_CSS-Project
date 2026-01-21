@@ -1,9 +1,11 @@
 body{
     margin-right: 10%;
-    border-radius: 5%;
     margin-left: 10%;
     background-color: rgb(199, 199, 240);
-
+    border: 5px;
+    border-color: blue;
+    border-style: solid;
+    padding: 30px;
 }
 
 main
